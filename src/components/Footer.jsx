@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className='flex flex-col items-start gap-10 basis-1/3'>
                         <div className='flex items-center justify-center gap-2'>
                             <img src={Logo} alt="logo" />
-                            <h1 className='text-lg text-white font-bold'>Be<span className='text-primary-500'>e</span>Travel</h1>
+                            <h1 className='text-lg text-white font-bold'>Gallery View</h1>
                         </div>
                         <p>Top 3 in the World</p>
                         <div className="flex gap-2">
@@ -22,30 +22,17 @@ const Footer = () => {
                     </div>
                     <div className="flex items-start justify-between md:gap-0 gap-4 md:mt-0 mt-4 basis-2/3">
                         <div className="flex flex-col gap-6">
-                            <h1 className="font-semibold text-white">Resources</h1>
-                            <p className="text-sm">Download</p>
-                            <p className="text-sm">Help Center</p>
-                            <p className="text-sm">Guide Book</p>
-                            <p className="text-sm">App Directory</p>
-                        </div>
-                        <div className="flex flex-col gap-6">
-                            <h1 className="font-semibold text-white">Travellers</h1>
-                            <p className="text-sm">Advantages</p>
-                            <p className="text-sm">Offers</p>
-                            <p className="text-sm">Customer Stories</p>
-                            <p className="text-sm">Specials</p>
-                        </div>
-                        <div className="flex flex-col gap-6">
-                            <h1 className="font-semibold text-white">Company</h1>
-                            <p className="text-sm">Travelling</p>
-                            <p className="text-sm">Offices</p>
-                            <p className="text-sm">Guide Book</p>
-                            <p className="text-sm">Information</p>
+                            <h1 className="font-semibold text-white">Menu</h1>
+                            <p className="text-sm">Home</p>
+                            <p className="text-sm">Gallery</p>
                         </div>
                         <div className="flex flex-col  gap-6">
-                            <h1 className="font-semibold text-white">Our App</h1>
-                            <p className="text-sm">App Store</p>
-                            <p className="text-sm">Google Play Store</p>
+                            <h1 className="font-semibold text-white">Join Our Community</h1>
+                            <p>
+                                Embark on a Journey of Creativity and
+                                Collaboration: Join Our Photography Community
+                                Today!
+                            </p>
                         </div>
                     </div>
                 </div>
