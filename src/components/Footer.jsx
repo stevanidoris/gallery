@@ -20,19 +20,34 @@ const Footer = () => {
                             <img src={Twiter} alt="twitter" />
                         </div>
                     </div>
-                    <div className="flex items-start justify-between md:gap-0 gap-4 md:mt-0 mt-4 basis-2/3">
+                    <div className="flex items-start justify-between md:gap-0 gap-4 md:mt-0 mt-8 basis-2/3">
                         <div className="flex flex-col gap-6">
-                            <h1 className="font-semibold text-white">Menu</h1>
-                            <p className="text-sm">Home</p>
-                            <p className="text-sm">Gallery</p>
+                            <h1 className="font-semibold text-white">Nature</h1>
+                            <p className="text-sm">Ocean</p>
+                            <p className="text-sm">Mountain</p>
+                            <p className="text-sm">Beach</p>
+                            <p className="text-sm">Waterfall</p>
+                            <p className="text-sm">More..</p>
+                        </div>
+                        <div className="flex flex-col gap-6">
+                            <h1 className="font-semibold text-white">Animal</h1>
+                            <p className="text-sm">Cat</p>
+                            <p className="text-sm">Dog</p>
+                            <p className="text-sm">Rabbit</p>
+                            <p className="text-sm">Fish</p>
+                            <p className="text-sm">More..</p>
+                        </div>
+                        <div className="flex flex-col gap-6">
+                            <h1 className="font-semibold text-white">People</h1>
+                            <p className="text-sm">Lover</p>
+                            <p className="text-sm">Family</p>
+                            <p className="text-sm">Friends</p>
+                            <p className="text-sm">More..</p>
                         </div>
                         <div className="flex flex-col  gap-6">
-                            <h1 className="font-semibold text-white">Join Our Community</h1>
-                            <p>
-                                Embark on a Journey of Creativity and
-                                Collaboration: Join Our Photography Community
-                                Today!
-                            </p>
+                            <h1 className="font-semibold text-white">Galaxy</h1>
+                            <p className="text-sm">Planets</p>
+                            <p className="text-sm">More..</p>
                         </div>
                     </div>
                 </div>

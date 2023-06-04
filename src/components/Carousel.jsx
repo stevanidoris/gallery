@@ -52,10 +52,7 @@ function Carousel() {
                 <h1 className='font-bold text-4xl'>Find Your Favorite Photo</h1>
                 <h2 className='text-4xl py-4 italic'>With Best Photographer</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-                    doloribus totam dicta ab ratione. Explicabo eveniet dolor, omnis in
-                    recusandae temporibus suscipit cum nihil officia deserunt possimus
-                    saepe praesentium accusamus!
+                This website showcases a stunning collection of photographs from various categories, including nature, animals, people, and galaxies. Explore captivating images captured by talented photographers from around the world.
                 </p>
             </div>
         </div>

@@ -11,10 +11,10 @@ const Navbar = () => {
     return (
         <nav className='w-full fixed top-0 bg-primary-300 z-10 px-5'>
         <div className='container mx-auto py-5 flex items-center justify-between'>
-            <div className='flex items-center gap-2'>
+            <div className='flex items-center gap-2' >
             <img className='w-8' src={Logo} alt='' />
             <span className='text-2xl font-bold text-indigo-900 dark:text-white'>
-                Gallery View
+                <a href="/" className="">Gallery View</a>
             </span>
             </div>
             <ul
@@ -31,7 +31,6 @@ const Navbar = () => {
             </ul>
             <img
             id='moon'
-            src='./img/moon.png'
             className='hidden md:block w-5 cursor-pointer'
             alt=''
             />

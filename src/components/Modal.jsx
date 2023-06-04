@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 
 const Modal = ({ image, closeModal }) => {
@@ -15,9 +15,9 @@ const Modal = ({ image, closeModal }) => {
         <p>{image.description}</p>
         <button
           onClick={closeModal}
-          className="absolute top-0 right-0 mt-4 mr-4 text-red-500 hover:text-red-700 cursor-pointer"
+          className="absolute top-0 right-0 mt-4 mr-4 text-red-500 hover:text-red-700 cursor-pointer p-2"
         >
-          <AiOutlineCloseCircle size={24} />
+          <AiOutlineCloseCircle size={40} />
         </button>
       </div>
     </div>

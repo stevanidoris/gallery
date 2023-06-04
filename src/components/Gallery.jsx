@@ -52,31 +52,31 @@ const Gallery = () => {
         <div className="flex flex-col lg:flex-row max-w-[500px] w-full">
           <button
             onClick={() => setImages(originalData)}
-            className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+            className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white border rounded-xl px-5 py-1"
           >
             All
           </button>
           <button
             onClick={() => filterCategory('nature')}
-            className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+            className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white border rounded-xl px-5 py-1"
           >
             Nature
           </button>
           <button
             onClick={() => filterCategory('animal')}
-            className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+            className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white border rounded-xl px-5 py-1"
           >
             Animal
           </button>
           <button
             onClick={() => filterCategory('people')}
-            className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+            className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white border rounded-xl px-5 py-1"
           >
             People
           </button>
           <button
             onClick={() => filterCategory('galaxy')}
-            className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+            className="m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white border rounded-xl px-5 py-1"
           >
             Galaxy
           </button>
